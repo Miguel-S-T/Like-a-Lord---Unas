@@ -1,12 +1,16 @@
 import React from "react";
-import "./Navbar.css";
+import classes from "./Navbar.css";
 import NavbarItems from "./NavbarItems/NavbarItems";
-// import DrawerToggle from "../SideDrawer/DrawerToggle/DrawerToggle";
+import DrawerToggle from "../SideDrawer/DrawerToggle/DrawerToggle";
+import Logo from "../Logo/Logo";
 
 const Navbar = (props) => (
-  <header className="Navbar">
-    {/* <DrawerToggle clicked={props.drawerToggleClicked} /> */}
-    <nav className="DesktopOnly">
+  <header className={classes.Navbar}>
+    <DrawerToggle clicked={props.drawerToggleClicked} />
+    <div className={classes.Logo}>
+      <Logo />
+    </div>
+    <nav className={classes.DesktopOnly}>
       <NavbarItems />
     </nav>
   </header>

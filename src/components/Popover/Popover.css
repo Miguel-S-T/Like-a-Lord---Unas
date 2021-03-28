@@ -1,0 +1,57 @@
+
+
+.ButtonPop {
+    background-color: transparent!important;
+    border: none;
+    font-size: 22px;
+    padding: 15px;
+    width: 255px;
+    box-shadow: none;
+    letter-spacing: 1px;
+    transition: none !important;
+    box-shadow: none !important;
+    border-color: none !important;
+    border: none !important;
+}
+
+.ButtonPop:hover, .ButtonPop:focus, .ButtonPop:not(:disabled) {
+    box-shadow: none;
+    border-color: none !important;
+    border: none !important;
+}
+
+.ButtonPop:hover {
+    background-color: white;
+    color:#D13D28;
+    text-decoration: none;
+}
+
+.Title {
+    color:#D13D28 !important;
+    text-decoration: #D13D28 !important;
+    font-family: "Calibri bold";
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.anchor {
+    text-decoration-color: #D13D28 !important;
+}
+
+.anchorTag:hover {
+    background-color: white;
+    color:#D13D28;
+    text-decoration: none;
+}
+
+.BoxTitle {
+    text-decoration: none !important;
+    padding:0.9rem 1rem 0rem 1rem!important;
+}
+
+.BoxTitle:hover {
+    background-color: white;
+    color:#D13D28;
+    text-decoration: none;
+}

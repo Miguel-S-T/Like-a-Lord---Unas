@@ -1,0 +1,98 @@
+.mainDiv {
+    font-family: "Calibri Regular" !important;
+    border-top: 2px solid #FBD46E;
+    background: #EA9045;
+    color: #FBD46E;
+    display: block;
+    position: relative;
+    letter-spacing: 0.3px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.bottomFooter {
+    color: #FBD46E;
+    background-color: #EA9045 !important;
+    text-align: center;
+
+}
+
+.UberEats {
+    width: 40%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+.Bud {
+    width: 65%;
+    height: auto;
+    margin-top: 7px;
+}
+
+.Recheio {
+    width: 65%;
+    height: auto;
+    margin-top: -25px;
+    margin-bottom: -50px;
+}
+
+.reclamações {
+    width: 88%;
+    height: auto;
+}
+
+.webImg {
+    width: 50%;
+    height: auto;
+}
+
+.poweredBy {
+    font-family: "Calibri Regular" !important;
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+
+.Paragraphs {
+    margin: 1px;
+}
+
+.LinksToPaths {
+    color: #FBD46E !important;
+}
+
+@media only screen and (max-width: 780px) {}
+
+
+@media only screen and (max-width: 650px) {
+    .Paragraphs {
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+
+    .reclamações {
+        width: 70%;
+        height: auto;
+    }
+
+    .Recheio {
+        width: 65%;
+        height: auto;
+        margin-top: -40px;
+        margin-bottom: -50px;
+    }
+
+    .UberEats {
+        width: 40%;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: -8px;
+    }
+
+    .Bud {
+        width: 65%;
+        height: auto;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,51 @@
+.locations {
+    background: black;
+    position: relative;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.locationsAvailable {
+    position: relative;
+    text-align: center;
+    margin-bottom: 45px; 
+}
+
+.Lisboa {
+    font-family: "Calibri Bold" !important;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px !important; 
+    margin: 0 auto;
+}
+
+.titulo {
+  
+    font-family: "Calibri Regular" !important;
+}
+
+.Pedidos {
+    margin-top: 25px ;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    position: relative;
+    display:flex;
+    font-family: "Calibri Regular" !important;
+    color: #FBD46E;
+    letter-spacing: 0.3px;
+ 
+}
+.UberLogo {
+border-radius: 5px;
+background: #FBD46E;
+margin: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
