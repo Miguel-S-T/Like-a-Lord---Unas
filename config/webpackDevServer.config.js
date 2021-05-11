@@ -94,12 +94,13 @@ module.exports = function (proxy, allowedHost) {
     https: getHttpsConfig(),
     host,
     overlay: false,
-    historyApiFallback: {
-      // Paths with dots should still use the history fallback.
-      // See https://github.com/facebook/create-react-app/issues/387.
-      disableDotRule: true,
-      index: "/",
-    },
+    historyApiFallback: true,
+    // {
+    // Paths with dots should still use the history fallback.
+    // See https://github.com/facebook/create-react-app/issues/387.
+    //   disableDotRule: true,
+    //   index: "/",
+    // },
     public: allowedHost,
     // `proxy` is run between `before` and `after` `webpack-dev-server` hooks
     proxy,

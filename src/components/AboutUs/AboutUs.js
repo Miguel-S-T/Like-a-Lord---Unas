@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import classes from "./AboutUs.css";
 import FotoUnas from "../../../src/assets/Optimized-FOTO PRINCIPAL UBER E PRESS PICS.jpg";
 import Footer from "../Footer/Footer";
@@ -50,10 +50,9 @@ function AboutUs() {
           </div>
         </div>
         <div className={classes.contactos}>
-          <Link className={classes.contactosLink} to='/aboutus'>
-            {" "}
-            <h1 className={classes.contactosH1}>CONTACTOS</h1>
-          </Link>
+          {/* <Link className={classes.contactosLink} to='/aboutus'> */}{" "}
+          <h1 className={classes.contactosH1}>CONTACTOS</h1>
+          {/* </Link> */}
           <h6 className={classes.contactosH6}>Apoio ao Cliente:</h6>{" "}
           <a
             className={classes.contactosAnchor}

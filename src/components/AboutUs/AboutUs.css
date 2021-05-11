@@ -12,8 +12,9 @@
 }
 
 .contactosLink:hover {
-  text-decoration-color:  #D13D28 !important;
+  text-decoration:  none;
 }
+
 .contactos {
   background-color: black;
   width: 100%;
