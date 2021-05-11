@@ -32,7 +32,7 @@
   }
 
 .bg {
-    background-image: url("/src//assets/site\ 1.png");
+    background-image: url("/src//assets/Optimized-site\ 1.png");
     height: 100%;
     width: 100%;
     background-position: top 90px center;
@@ -121,13 +121,13 @@ h6 {
 
 @media only screen and (max-width: 780px){
     .bg {
-        background-image: url("/src/assets/site\ 1.2\ \(mobile\).png");
+        background-image: url("/src/assets/Optimized-site\ 1.2\ \(mobile\).png");
     }
 }
 
 @media only screen and (max-width: 650px) {
     .bg {
-        background-image: url("/src//assets/site\ 1.3\ \(mobile\).png");
+        background-image: url("/src//assets/Optimized-site\ 1.3\ \(mobile\).png");
     }
     .selectMenu {
         display: none;

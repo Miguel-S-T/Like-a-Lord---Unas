@@ -5,7 +5,7 @@ import classes from "./Homepage.css";
 import Menu from "../Menu/Menu";
 import Popover from "../Popover/Popover";
 import Footer from "../Footer/Footer";
-import FotoUnas from "../../assets/FOTO PRINCIPAL UBER E PRESS PICS.jpg";
+import FotoUnas from "../../assets/Optimized-FOTO PRINCIPAL UBER E PRESS PICS.jpg";
 
 export default function Homepage() {
   return (
@@ -16,11 +16,11 @@ export default function Homepage() {
 
         <div className={classes.LinksDiv}>
           <div className={classes.LinksDiv2}>
-            <Link className={classes.MenuLink} to="/menu">
+            <Link className={classes.MenuLink} to='/menu'>
               {" "}
               <p className={classes.pText}>VER MENU</p>
             </Link>
-            <Route path="/menu" component={Menu} exact />
+            <Route path='/menu' component={Menu} exact />
             <div className={classes.Link}>
               {" "}
               <div className={classes.pTextPop}>
@@ -31,9 +31,9 @@ export default function Homepage() {
         </div>
       </div>{" "}
       <div className={classes.aboutUs}>
-        <div className="container">
-          <div className="row">
-            <div className="col-md" id="aboutUs">
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md' id='aboutUs'>
               <h1 className={classes.aboutUsH1}>SOBRE NÓS</h1>
               <p className={classes.aboutUsP}>
                 “Like a Lord burguers by Rui Unas”, ahhh só o nome já faz
@@ -64,21 +64,21 @@ export default function Homepage() {
                 <i>Rui Unas</i>
               </p>
             </div>
-            <div className="col-md">
+            <div className='col-md'>
               {" "}
-              <img className={classes.unasBurger} src={FotoUnas} alt="unas" />
+              <img className={classes.unasBurger} src={FotoUnas} alt='unas' />
             </div>
           </div>
         </div>
         <div className={classes.contactos}>
-          <Link className={classes.contactosLink} to="/aboutus">
+          <Link className={classes.contactosLink} to='/aboutus'>
             {" "}
             <h1 className={classes.contactosH1}>CONTACTOS</h1>
           </Link>
           <h6 className={classes.contactosH6}>Apoio ao Cliente:</h6>{" "}
           <a
             className={classes.contactosAnchor}
-            href="mailto:geral@likealordburgers.com"
+            href='mailto:geral@likealordburgers.com'
           >
             geral@likealordburgers.com
           </a>
