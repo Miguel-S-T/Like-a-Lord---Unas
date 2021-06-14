@@ -20,7 +20,13 @@
     margin-top: 25px;
     margin-bottom: 20px !important; 
     margin: 0 auto;
+    transition: transform .5s ease;
+    overflow: hidden;
 }
+
+.Lisboa:hover  {
+    transform: scale(2.5);
+  }
 
 .titulo {
   

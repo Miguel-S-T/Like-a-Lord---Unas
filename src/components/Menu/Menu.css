@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    letter-spacing: 1px;
   }
 
   .selectMenu a {
@@ -29,10 +29,11 @@
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
+    letter-spacing: 3px;
   }
 
 .bg {
-    background-image: url("/src//assets/Optimized-site\ 1.png");
+    background-image: url("/src//assets/site-1_LR.jpg");
     height: 100%;
     width: 100%;
     background-position: top 90px center;
@@ -57,10 +58,11 @@
     text-decoration: underline;
     display:inline-block;
     background-color: black;
-    padding:  6px;
+    padding: 6px;
     margin-top: 20px;
     margin-bottom: 5px;
     border-radius: 5px;
+   
 }
 
 h1 {
@@ -74,6 +76,7 @@ h5 {
     font-family: "NevradaNeue" ;
     font-weight: bold;
     font-size: 24px !important;
+    letter-spacing: 2px;
 }
 
 h6 {
@@ -119,17 +122,21 @@ h6 {
 
 
 
+
 @media only screen and (max-width: 780px){
     .bg {
-        background-image: url("/src/assets/Optimized-site\ 1.2\ \(mobile\).png");
+        background-image: url("/src/assets/site-1.2-\(mobile\)-LR.jpg");
     }
 }
 
 @media only screen and (max-width: 650px) {
     .bg {
-        background-image: url("/src//assets/Optimized-site\ 1.3\ \(mobile\).png");
+        background-image: url("/src//assets/site-1.3-\(mobile\)-LR.jpg");
     }
     .selectMenu {
         display: none;
+    }
+    .smash { 
+    font-size: 32px;
     }
 }

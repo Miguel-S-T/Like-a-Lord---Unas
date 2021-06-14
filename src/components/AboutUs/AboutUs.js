@@ -20,13 +20,16 @@ function AboutUs() {
                 Associei-me à Web Kitchen Labs para ajudar a restauração em
                 Portugal e juntos criámos a Like a lord Burguers.
                 <br />
+                <br />
                 No meu menu vais encontrar o universo Rui Unas, combinado com as
                 melhores receitas americanas. Eu sei... yummy! Smash burguers
                 fininhos, deliciosos, abraçados por queijo que sim, senhor.{" "}
                 <br />
+                <br />
                 O pão é algo em que investimos o nosso tempo e que faz a padeira
                 de Aljubarrota querer voltar para nos bater a todos de tão fofo
                 e leve que é. <br />
+                <br />
                 Miss panamá foi inspirado na minha senhora: exótica e complexa,
                 Maluco Beleza é para todos os que querem mais. O Bombunas é para
                 os que podem. O Cabaret da Coxa é quase pornográfico e o Like a
@@ -34,6 +37,7 @@ function AboutUs() {
                 Acompanha o teu menu com a melhor cerveja americana: a Bud -
                 King of Beers e termina com um delicioso Brownie com caramelo,
                 chantilly e bacon. Bacon?! Eu sei... confia.
+                <br />
                 <br />
                 Lembra-te que quando pedes Like a Lord Burgers estás a promover
                 a tua economia local e a ajudar um restaurante perto de ti. E

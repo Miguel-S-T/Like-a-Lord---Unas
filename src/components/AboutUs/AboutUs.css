@@ -24,7 +24,7 @@
   background-position: center center;
   position: relative;
   padding: 40px;
-  bottom: 100px;
+  bottom: 90px;
 }
 
 .aboutUsH1 {
@@ -38,6 +38,7 @@
   font-family: "Calibri Regular";
   letter-spacing: 0.7px;
   text-align: left;
+ 
 }
 
 .unasBurger {
