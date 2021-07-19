@@ -21,6 +21,14 @@ function AboutUs() {
                 Portugal e juntos criámos a Like a lord Burguers.
                 <br />
                 <br />
+                O nosso menu é preparado por diferentes parceiros. Restaurantes
+                que já existem e que utilizam as suas cozinhas e staff para
+                fazerem os nossos deliciosos hambúrgueres. Assim, nós temos
+                cozinhas, os restaurantes têm um rendimento extra e os clientes
+                têm os Like a Lord Burgers. <br /> É um projecto win-win que
+                ajuda um sector que tanto precisa.
+                <br />
+                <br />
                 No meu menu vais encontrar o universo Rui Unas, combinado com as
                 melhores receitas americanas. Eu sei... yummy! Smash burguers
                 fininhos, deliciosos, abraçados por queijo que sim, senhor.{" "}

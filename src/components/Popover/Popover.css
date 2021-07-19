@@ -25,6 +25,32 @@
     color:#D13D28;
     text-decoration: none;
 }
+.ButtonPop2 {
+    background-color: transparent!important;
+    border: none;
+    font-size: 22px;
+    padding: 15px;
+    width: 255px;
+    height: 30px !important;
+    box-shadow: none;
+    letter-spacing: 1px;
+    transition: none !important;
+    box-shadow: none !important;
+    border-color: none !important;
+    border: none !important;
+}
+
+.ButtonPop2:hover, .ButtonPop2:focus, .ButtonPop2:not(:disabled) {
+    box-shadow: none;
+    border-color: none !important;
+    border: none !important;
+}
+
+.ButtonPop2:hover {
+    background-color: white;
+    color:#D13D28 !important;
+    text-decoration: none;
+}
 
 .Title {
     color:#D13D28 !important;

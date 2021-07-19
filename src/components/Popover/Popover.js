@@ -24,11 +24,11 @@ function Popover2() {
         <Overlay
           show={show}
           target={target}
-          placement="bottom"
+          placement='bottom'
           container={ref.current}
           containerPadding={20}
         >
-          <Popover id="popover-contained">
+          <Popover id='popover-contained'>
             {/* <Popover.Title as="h3" className={classes.BoxTitle}>
               {" "}
               <a
@@ -40,14 +40,14 @@ function Popover2() {
               </a>
               
             </Popover.Title> */}
-            <Popover.Title as="h3" className={classes.BoxTitle}>
+            <Popover.Title as='h3' className={classes.BoxTitle}>
               {" "}
-              <Link to="/locations" className={classes.anchor}>
+              <Link to='/locations' className={classes.anchor}>
                 {" "}
                 {/* <p className={classes.Title}>TELEFONE</p> */}
                 <p className={classes.Title}>ONLINE</p>
               </Link>
-              <Route path="/locations" component={Locations} exact />
+              <Route path='/locations' component={Locations} exact />
             </Popover.Title>
           </Popover>
         </Overlay>

@@ -6,6 +6,7 @@ import Menu from "../Menu/Menu";
 import Popover from "../Popover/Popover";
 import Footer from "../Footer/Footer";
 import FotoUnas from "../../assets/Optimized-FOTO PRINCIPAL UBER E PRESS PICS.jpg";
+import "../Popover/Popover.css";
 
 export default function Homepage() {
   return (
@@ -24,7 +25,16 @@ export default function Homepage() {
             <div className={classes.Link}>
               {" "}
               <div className={classes.pTextPop}>
-                <Popover />
+                <Link
+                  className={classes.ButtonPop2}
+                  style={{ color: "white" }}
+                  to='/locations'
+                >
+                  {" "}
+                  <p className={classes.pText}>ENCOMENDAR</p>
+                </Link>
+                <Route path='/menu' component={Menu} exact />
+                {/* <Popover /> */}
               </div>
             </div>
           </div>

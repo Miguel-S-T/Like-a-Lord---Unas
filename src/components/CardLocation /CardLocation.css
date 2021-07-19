@@ -1,3 +1,18 @@
+#pedidos {
+    /* margin-top: 25px ;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    position: relative;
+    display:flex; */
+    font-family: "Calibri Regular" !important;
+    color: #FBD46E !important;
+    letter-spacing: 0.3px;
+ 
+}
+
 .locations {
     background: black;
     position: relative;
