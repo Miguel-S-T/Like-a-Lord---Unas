@@ -28,8 +28,8 @@ function Locations() {
       link: "https://neon.ly/magiclinklord",
       img: Carcavelos,
       horário: "Terça a Domingo",
-      almoço: "12:00 ás 15:00 ",
-      jantar: "19:00 às 22:00",
+      almoço: "Almoço: 12:00 ás 15:00 ",
+      jantar: " Jantar: 19:00 às 22:00",
       parceiro: "Tapas do Junqueiro",
       morada: "Rua de Luanda, 578 E - 2775-369 Bairro do Junqueiro",
     },
@@ -38,8 +38,8 @@ function Locations() {
       link: "https://neon.ly/magiclinklord",
       img: Lisboa,
       horário: "Terça a Domingo",
-      almoço: "12:00 ás 15:00 ",
-      jantar: "19:00 às 22:00",
+      almoço: "Almoço: 12:00 ás 15:00 ",
+      jantar: "Jantar: 19:00 às 22:00",
       parceiro: "Restaurante Bella Lisa Valmor",
       morada: "R. Alexandre Cabral 4A 1600-817 Lisboa",
     },
@@ -48,8 +48,8 @@ function Locations() {
       link: "https://neon.ly/magiclinklord",
       img: Estoril,
       horário: "Terça a Domingo",
-      almoço: "12:00 ás 15:00 ",
-      jantar: "19:00 às 22:00",
+      almoço: "Almoço: 12:00 ás 15:00 ",
+      jantar: "Jantar: 19:00 às 22:00",
       parceiro: " Restaurante Tamariz",
       morada: "R. Alexandre Cabral 4A 1600-817 Lisboa",
     },
@@ -58,8 +58,8 @@ function Locations() {
       link: "https://neon.ly/magiclinklord",
       img: Porto,
       horário: "Terça a Domingo",
-      almoço: "12:00 ás 15:00 ",
-      jantar: "19:00 às 22:00",
+      almoço: "Almoço: 12:00 ás 15:00 ",
+      jantar: "Jantar: 19:00 às 22:00",
       parceiro: "Tapas n´Friends Galerias de Paris",
       morada: "Indisponível",
     },
@@ -78,8 +78,8 @@ function Locations() {
       link: "https://neon.ly/magiclinklord",
       img: Telheiras,
       horário: "Terça a Domingo",
-      almoço: "12:00 ás 15:00 ",
-      jantar: "19:00 às 22:00",
+      almoço: "Almoço: 12:00 ás 15:00 ",
+      jantar: "Jantar: 19:00 às 22:00",
       parceiro: "Restaurante À Dúzia",
       morada: "R. Alexandre Cabral 4A 1600-817 Lisboa",
     },
@@ -149,8 +149,8 @@ function Locations() {
       link: "https://neon.ly/magiclinklord",
       img: Sobreda,
       horário: "Terça a Domingo",
-      almoço: "12:00 ás 15:00 ",
-      jantar: "19:00 às 22:00",
+      almoço: "Almoço: 12:00 ás 15:00 ",
+      jantar: "Jantar: 19:00 às 22:00",
       parceiro: "The Mob",
       morada: "Praceta Leitão de Barros 2B - 2815-879 Sobreda",
     },
@@ -185,27 +185,31 @@ function Locations() {
   return (
     <>
       <Layout />
-
       <div className={classes.locations} id='locationsAvailable'>
         <h1 className={classes.locationsAvailable}>Localizações disponíveis</h1>
-        <div className='container' style={{ minHeight: "450px" }}>
-          <div style={{ textAlign: "center" }}>
+        <div className='container' style={{ minHeight: "830px" }}>
+          <div className={classes.dropdownDiv}>
             {/* <label style={{ color: "white", margin: "0 10px" }}>
               Choose a location:
             </label> */}
-            <select onChange={handleChange}>
+            <select onChange={handleChange} className={classes.dropdown}>
               {locations.map((location, index) => (
-                <option key={index} value={location}>
+                <option
+                  key={index}
+                  value={location}
+                  className={classes.dropdownOptions}
+                >
                   {location}
                 </option>
               ))}
             </select>
           </div>
-          <div className='row' styles={{ textAlign: "center", margin: "auto" }}>
-            {filteredRestaurants.map((restaurant, i) => (
-              <div className='col-lg-5 d-flex  mt-4 ' key={i}>
-                <CardLocation restaurant={restaurant} />
-                {/* <h5 className={classes.titulo}>{restaurant.name}</h5>
+          <div styles={{ textAlign: "center", margin: "auto" }}>
+            <div className='row'>
+              {filteredRestaurants.map((restaurant, i) => (
+                <div className={classes.cardDiv} key={i} id='cardDiv'>
+                  <CardLocation restaurant={restaurant} />
+                  {/* <h5 className={classes.titulo}>{restaurant.name}</h5>
                 <p className={classes.Pedidos}>
                   <b>Horário: &nbsp;</b>
                   {restaurant.horário}{" "}
@@ -246,8 +250,9 @@ function Locations() {
                   alt={restaurant.name}
                   style={{ width: "12rem" }}
                 /> */}
-              </div>
-            ))}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 

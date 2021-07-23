@@ -6,19 +6,25 @@ import classes from "./CardLocation.css";
 const CardLocation = ({ restaurant }) => {
   return (
     <>
-      <div className='card' styles={{ width: "18rem" }}>
+      <div
+        className='card'
+        styles={{ width: "16rem" }}
+        style={{ backgroundColor: "black", border: "1px solid #FBD46E" }}
+        id='cardText'
+      >
         <img
           src={restaurant.img}
           alt={restaurant.name}
           className='card-img-top'
+          style={{ padding: "11px 11px" }}
         />
-        <div className='card-body'>
+        <div className='card-body' id='map'>
           <h5 className='card-title'>{restaurant.name}</h5>
           <a href={restaurant.link} target='_blank' rel='noopener noreferrer'>
             {" "}
             <img
               src={Uber}
-              style={{ width: "7rem" }}
+              style={{ width: "5rem" }}
               className={classes.UberLogo}
               alt='logoUber'
             />
@@ -37,12 +43,10 @@ const CardLocation = ({ restaurant }) => {
             {restaurant.horário}{" "}
           </p>
           <p className='card-text'>
-            <b>Almoço: &nbsp;</b>
-            {restaurant.almoço}{" "}
+            <b> {restaurant.almoço}</b>
           </p>
           <p className='card-text'>
-            <b>Jantar:&nbsp;</b>
-            {restaurant.jantar}{" "}
+            <b> {restaurant.jantar}</b>
           </p>
         </div>
       </div>
