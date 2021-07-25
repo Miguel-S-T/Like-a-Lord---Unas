@@ -421,7 +421,7 @@ function Menu() {
               to='/locations'
             >
               {" "}
-              <p className={classes.orderText}>ENCOMENDAR</p>
+              <h6 className={classes.orderText}>ENCOMENDAR</h6>
             </Link>
             <Route path='/locations' component={Locations} exact />
           </div>
