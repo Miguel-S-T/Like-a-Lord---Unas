@@ -168,13 +168,13 @@
     margin: 1px;
     font-family: "Calibri bold";
     font-weight: bolder;
-    
+    color: white;
   
   }
   
   .pText:hover {
     background-color: white;
-    color:#D13D28;
+    color:#D13D28 !important;
   }
 
   .pTextPop {
@@ -186,7 +186,7 @@
 
   .pTextPop:hover {
     background-color: white;
-    color:#D13D28;
+    color:#D13D28 !important;
   }
 /* 
  @media only screen and (min-width: 1280px) {

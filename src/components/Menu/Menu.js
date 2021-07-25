@@ -167,7 +167,7 @@ function Menu() {
           </h1>
           <div className='container'>
             <div className='row row-cols-4'>
-              <div
+              {/* <div
                 className='card'
                 style={{
                   width: "18rem",
@@ -188,8 +188,8 @@ function Menu() {
                     burger, cebola crispy.
                   </h6>
                 </div>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className='card'
                 style={{
                   width: "18rem",
@@ -210,7 +210,7 @@ function Menu() {
                     manjericão, barbecue de tamarindo.
                   </h6>
                 </div>
-              </div>
+              </div> */}
               <div
                 className='card'
                 style={{

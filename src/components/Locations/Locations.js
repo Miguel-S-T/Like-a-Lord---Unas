@@ -193,23 +193,25 @@ function Locations() {
               Choose a location:
             </label> */}
             <select onChange={handleChange} className={classes.dropdown}>
-              {locations.map((location, index) => (
-                <option
-                  key={index}
-                  value={location}
-                  className={classes.dropdownOptions}
-                >
-                  {location}
-                </option>
-              ))}
+              {locations &&
+                locations.map((location, index) => (
+                  <option
+                    key={index}
+                    value={location}
+                    className={classes.dropdownOptions}
+                  >
+                    {location}
+                  </option>
+                ))}
             </select>
           </div>
           <div styles={{ textAlign: "center", margin: "auto" }}>
             <div className='row'>
-              {filteredRestaurants.map((restaurant, i) => (
-                <div className={classes.cardDiv} key={i} id='cardDiv'>
-                  <CardLocation restaurant={restaurant} />
-                  {/* <h5 className={classes.titulo}>{restaurant.name}</h5>
+              {filteredRestaurants &&
+                filteredRestaurants.map((restaurant, i) => (
+                  <div className={classes.cardDiv} key={i} id='cardDiv'>
+                    <CardLocation restaurant={restaurant} />
+                    {/* <h5 className={classes.titulo}>{restaurant.name}</h5>
                 <p className={classes.Pedidos}>
                   <b>Horário: &nbsp;</b>
                   {restaurant.horário}{" "}
@@ -250,8 +252,8 @@ function Locations() {
                   alt={restaurant.name}
                   style={{ width: "12rem" }}
                 /> */}
-                </div>
-              ))}
+                  </div>
+                ))}
             </div>
           </div>
         </div>
